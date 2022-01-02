@@ -1,7 +1,7 @@
 # WARNING: This is some old stuff!
 Don't expect this to be good or to work.
 
-## StateVW (created in 2016)
+## StateVM (created in 2016)
 This is a small program that reads a "state file" and turns it into a deterministic finite automaton.
 It then reads in some input and runs it through the automaton.
 
