@@ -40,7 +40,7 @@ The following two special states exist: back and loop.
 When using loop the automaton will stay in its current state.
 When using back the automaton will go back to its previous state, if one exists.
 
-One the automaton has processed the input without errors it will print the current state's name with one of the following prefixes:
+Once the automaton has processed the input without errors it will print the current state's name with one of the following prefixes:
 - IAS (in accepting state)
 - NAS (not in accepting state)
 
