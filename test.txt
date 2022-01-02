@@ -1,0 +1,23 @@
+state Start{
+	start_state;
+	1: Odd;
+	0: Even;
+	default: Error;
+}
+
+state Even{
+	accept_state;
+	1: Odd;
+	0: loop;
+	default: Error;
+}
+
+state Odd {
+	1: loop;
+	0: Even;
+	default: Error;
+}
+
+state Error {
+	default: loop;
+}
