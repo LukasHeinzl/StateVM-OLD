@@ -14,7 +14,7 @@ It then reads in some input and runs it through the automaton.
         start_state;
     }
     
-    state A{
+    state B{
         2: B;
         1: A;
         default: C;
